@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('//db.onlinewebfonts.com/c/188d1fa8197b9332b368f98b00285a05?family=Balqis');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+header {
+    background: url('../images/1_phone.jpg') center / cover no-repeat;
+    height: 100vh;
+}
+
+.nav_block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_block nav {
+    flex: 0 1 30%;
+}
+
+.menu {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-right: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+    list-style: none;
+}
+
+.menu_item {
+    color: black;
+}
+
+.tel {
+    width: 200px;
+    height: 20px;
+    margin-left: 0px;
+    margin-top: 20px;
+    justify-content: center
+}
+
+p {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.third_text {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third_text h1 {
+    font-family: 'Balqis';
+    font-size: 250px;
+    font-weight: 400;
+}
+
+
+.fourth_text h2 {
+    margin-top: 10%;
+    font-family: 'Balqis', sans-serif;
+    width: 330px;
+    height: 125px;
+    margin-left: 20%;
+    font-size: 96px;
+    font-weight: 400;
+    color: #E2AB3F;
+}
+
+.fourth_text2 p {
+    /* position: absolute; */
+    /* top: 97%; */
+    /* left: 29%; */
+    /* font-size: 24px;
+    font-weight: 300;
+    font-family: 'Balqis', sans-serif;
+    font-style: italic; */
+}
+
+.main_box {
+    width: 50%;
+    height: 20px;
+    margin-right: 40%;
+}
+
+.texts p {
+    width: 100px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
